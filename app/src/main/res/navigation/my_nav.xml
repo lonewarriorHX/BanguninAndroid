@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:androidx="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    androidx:id="@+id/my_nav"
+    app:startDestination="@id/accountFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        androidx:id="@+id/accountFragment"
+        androidx:name="com.example.finalapplication.AccountFragment"
+        androidx:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        androidx:id="@+id/homeFragment"
+        androidx:name="com.example.finalapplication.HomeFragment"
+        androidx:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        androidx:id="@+id/settingsFragment"
+        androidx:name="com.example.finalapplication.SettingsFragment"
+        androidx:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        androidx:id="@+id/projectFragment"
+        androidx:name="com.example.finalapplication.ProjectFragment"
+        androidx:label="fragment_project"
+        tools:layout="@layout/fragment_project" />
+</navigation>

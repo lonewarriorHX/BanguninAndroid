@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FinalApplication</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="user_name">User Name</string>
+    <string name="background">Background</string>
+    <string name="logo">Logo</string>
+    <string name="selamat_datang">Selamat datang</string>
+    <string name="Logout" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
